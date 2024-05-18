@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'JetBrainsMonoNL';
+    src: url('JetBrainsMonoNL-Thin.ttf') format('truetype');
+    font-weight:100;
+    font-style:normal;
+}
+body{
+    background-color:rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    font-family: 'JetBrainsMonoNL', Courier, monospace;
+}
+p{
+    font-family: 'JetBrainsMonoNL', Courier, monospace;
+    font-size: large;
+}
+header{
+    background: #292929 30.5%;
+    width: 100%;
+    height: 10%;
+    display: flex;  
+    align-items: center;
+    color: #ffffff;
+    position: relative; 
+    line-height: 48.41px;
+}
+header h1{    
+    width: 380px;
+    height: 38px;
+    text-align: center;
+    margin: 0 auto;
+} 
+footer{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #292929;
+}
+footer .conteudo-footer{
+    padding: 4px;
+ }
+ .conteudo-footer p{
+     font-family: 'Inter';
+     font-size: 10px;
+     font-weight: 400;
+     line-height: 12.1px;
+     text-align: center;
+ }
+ form{
+    text-align: center;
+ }
