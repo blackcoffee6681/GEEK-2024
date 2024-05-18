@@ -46,6 +46,17 @@ footer .conteudo-footer{
      line-height: 12.1px;
      text-align: center;
  }
- form{
+.perguntas{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: justify;
+}
+
+.questao{
     text-align: center;
- }
+    font-size: xx-large;
+}
+
+.alternativas{
+    padding-left: 2.5%;
+}
