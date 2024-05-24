@@ -1,0 +1,43 @@
+body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(75, 16, 101) 100%);
+}
+.titulo{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+}
+.mencao{
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.textooo{
+    text-align: justify;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: white;
+    font-weight: 50;
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.legenda{
+    font-size: large;
+    font-style: italic;
+    text-align: right;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration:underline;
+}
